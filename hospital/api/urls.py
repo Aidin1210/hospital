@@ -36,6 +36,7 @@ urlpatterns = [
 
          })
     ),
+
     path(
         'patient/<int:id>/',
         PatientView.as_view({
